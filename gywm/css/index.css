@@ -1,0 +1,166 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/*common*/
+body{font-family: "Microsoft YaHei"; min-width:1200px}
+.mb10 { margin-bottom:10px;}
+.ml10 { margin-left:10px;}
+.bg { background:#FFF;}
+/*banner*/
+.banner{ height: 500px; overflow: hidden;}
+/*一站式服务*/
+.serve{ margin-top: 65px; height: 435px; overflow: hidden;}
+.tit1{ font-weight: normal; text-align: center; line-height:30px;}
+.tit1 b{ margin: 3px 0; display: block; font-size: 28px; color: #d4211c; background: url(../images/h_bg1.gif) no-repeat center center;}
+.tit1 em{ font-size: 12px; color: #666; text-transform: uppercase; letter-spacing: 5px;}
+.serve ul{ margin-top: 25px;}
+.serve li{ float: left; margin-right:45px; width:255px; height: 275px; text-align: center; overflow: hidden; background: url(../images/case_bg.jpg) no-repeat 0 bottom;}
+.serve li.last{ margin-right: 0;}
+.serve li span{ margin: 0 auto 18px; display: block; width: 94px; height: 94px; overflow: hidden; background: url(../images/icobox.png) no-repeat 0 -192px;}
+.serve li h3{ font-size: 18px; color: #555;}
+.serve li h3 i{ display: block; font-size: 12px; color: 888; font-weight: normal; text-transform: uppercase;}
+.serve li p{ margin-top: 20px; font-size: 14px; color: #666; line-height: 25px;}
+.serve li span.ser2{ background-position: 0 -384px;}
+.serve li span.ser3{ background-position: -96px -96px;}
+.serve li span.ser4{ background-position: -96px -288px;}
+.serve li:hover{ background: url(../images/case_bg_hov.jpg) no-repeat 0 bottom;}
+.serve li:hover .ser1{ background-position: 0 -288px;}
+.serve li:hover .ser2{ background-position: -96px 0;}
+.serve li:hover .ser3{ background-position: -96px -192px;}
+.serve li:hover .ser4{ background-position: -96px -384px;}
+.serve li:hover h3,.serve li:hover i{ color: #d4211c;}
+/*产品*/
+.pro{ padding-top: 46px; height: 600px; overflow: hidden; background: url(../images/ys_bg.jpg) repeat;}
+.pro_l{ float: left; width: 233px; border: 6px solid #d4211c; overflow: hidden; background: #fff;}
+.pro_l h2{ margin-bottom: 6px; padding-top: 10px; height: 56px; font-size: 22px; text-align: center; overflow: hidden; background: url(../images/pro_lh.gif) no-repeat;}
+.pro_l h2 a{ color: #fff;}
+.pro_l p{ font-size: 12px; font-weight: normal; opacity: .6;}
+.pro_lbox h3{ padding-left: 12px; height: 33px; font-size: 14px; line-height: 33px; overflow: hidden; background: #ededed;}
+.pro_lbox h3 a{ color: #333;}
+.pro_lbox h3.red a{ color: #da091d;}
+.pro_lbox ul{ margin: 0 auto 18px; width: 210px; overflow: hidden;}
+.pro_lbox li{ padding-left: 20px; height: 33px; overflow: hidden; font-size: 14px; line-height: 33px; border-bottom: 1px dashed #ddd; background: url(../images/pro-ico1.gif) no-repeat 0 center;}
+.pro_lbox li a{ color: #333;}
+.pro_lbox li:hover{ background: url(../images/pro-ico1-hov.gif) no-repeat 0 center;}
+.pro_lbox li:hover a{ color: #d4211c;}
+.pro_r{ float: right; width:930px; overflow: hidden;}
+.pro_rt{ margin-bottom:10px; height: 48px; line-height: 48px; overflow: hidden; border-bottom:1px #999999 solid}
+.pro_rt li{ float: left; width:150px; text-align: center; font-weight: bold; overflow: hidden; }
+.pro_rt li a{ display: block; font-size: 20px; color: #555;}
+.pro_rt li.first{ background: url(../images/pro-ico2.gif) no-repeat 0 center;}
+.pro_rt li.cur a,.pro_rt li a:hover{ color: #d4211c;}
+.pro_more{float: right; font-size: 14px; color: #555;}
+.pro_rbb{ margin-top: 14px;}
+.pro_rbb li{ position: relative; float: left; margin:0px 9px 20px 0px; width: 220px; height:220px; border: 1px solid #ddd; overflow: hidden;}
+.pro_rbb li:hover{ border:1px solid #d4211c}
+.pro_rbb li p{height: 38px; font-size: 14px; color: #fff; text-align: center; overflow: hidden; line-height: 33px; background-color:#999}
+/*合作伙伴*/
+.client{ height:397px; overflow: hidden; margin-top:20px}
+.client h2 p,.pj h2 p{ margin-bottom: 5px; font-size: 36px; background: url(../images/h_bg3.gif) no-repeat center center; color:#d4211c}
+.clientbox{ margin-top: 36px; background:url(../images/par_shadow.jpg) no-repeat bottom; padding-bottom:30px}
+.clientconbox{ height:210px; overflow: hidden; border:#CCC 1px solid}
+.clientconbox li{ float:left; text-align:center; margin:0 13px; padding-top:20px}
+.clientconbox li img{ border:#CCC 1px solid}
+.clientconbox li span{ display:block; font-size:16px; color:#000; height:40px; line-height:40px; width:212px; overflow:hidden}
+.clientconbox li span:hover{ color:#d4211c}
+/*优势*/
+.ys{overflow: hidden; background: url(../images/ys_bg.jpg) repeat; margin-bottom:35px}
+.ys h2{ height: 273px;}
+.ysbox{ margin-top: 45px;}
+.ysbox .ys_txt{ float:left; padding-left: 115px; width:520px;}
+.ysbox .ye2_img{ float:left; margin:30px 10px 0px 20px}
+.ysbox .ys_img{ float: right; margin-right:40px}
+.ys1{ height: 350px; overflow: hidden;}
+.ys2{ height: 394px; overflow: hidden;}
+.ys3{ height: 441px; overflow: hidden;}
+.ys1 .ys_txt{ background: url(../images/ys_n1.gif) no-repeat;}
+.ys2 .ys_txt{ float: right; margin-top: 40px; background: url(../images/ys_n2.gif) no-repeat;}
+.ys3 .ys_txt{ margin-top: 40px; background: url(../images/ys_n3.gif) no-repeat;}
+.ys1 .ys_img{ margin:8px 20px;}
+.ysbox h3{ width: 360px; height: 86px; font-size: 30px; color: #d42220; font-weight: normal; border-bottom: 1px dashed #ccc;}
+.ysbox h3 b{ display: block; font-size: 24px; color: #333;}
+.ysbox p{ margin-top: 12px; padding-left: 16px; font-size: 14px; color: #666; line-height: 25px; background: url(../images/ys_ico1.gif) no-repeat 0 8px;}
+.ysbox a{ margin-top: 34px; display: block; width: 122px; height: 38px; font-size: 14px; color: #fff; text-align: center; line-height: 38px; background: #d42220;}
+.ysbox span{ margin-top: 30px; display: block; font-size: 14px; color: #555;}
+.ysbox span b{ font-size: 32px; color: #424242; letter-spacing: -2px;}
+.ad1{ height: 240px; overflow: hidden; }
+/*工程案例*/
+.pj{ margin: 45px auto; overflow: hidden;}
+.pjbox{ margin-top: 35px; text-align:center}
+.pjbox li{ position: relative; float: left; margin-right:19px; padding: 14px; width:337px; height: 350px; border: 1px solid #ddd;}
+.pjbox li h3{ margin: 20px auto 10px; font-size: 16px; color: #333;}
+.pjbox li p{ height:57px; font-size: 14px; color: #666; line-height: 28px; overflow: hidden;}
+.pjbox li a.more{ position: absolute; right: 0; bottom: 0; display: block; width: 33px; height: 27px; overflow: hidden; background: url(../images/icobox.png) no-repeat -71px -522px;}
+.pjbox li:hover a.more{ background-position: -106px -522px;}
+/*走进华圣*/
+.company{ height: 465px; overflow: hidden; margin-top:50px}
+.company dl{ margin-top: 120px; padding-left: 35px; height: 295px; background: #d4211c;}
+.company dt{ float: left; margin-top: -55px; }
+.company dt img{border:#FFF 3px solid; box-shadow:10px 8px 15px #333}
+.company dd{ position: relative; float: right; margin-top: 33px; width:655px; height: 262px;}
+.company dd h3{ font-size:22px; color: #fff; }
+.company dd p{ margin-top: 10px; width:610px; height: 168px; font-size: 14px; color: #fff; line-height: 28px; overflow: hidden;}
+.company dd a{ position: absolute; right: 0; bottom: 0; display: block; width: 33px; height: 27px; overflow: hidden; background: url(../images/icobox.png) no-repeat -71px -522px;}
+/*相册*/
+.album{ height:375px;}
+.album img{ display: block;}
+.albumbox{ position: relative;}
+.album-prev,.album-next{ position: absolute; top: 52px; display: block; width: 30px; height: 80px; overflow: hidden; }
+.album-prev:hover,.album-next:hover{ opacity: .8;}
+.album-prev{ left: -65px;}
+.album-next{ right: -65px;}
+.albumconbox ul{ text-align: center; font-size: 0;}
+.albumconbox li{ display: inline-block; margin: 0 1px; width:239px;}
+.albumconbox li{ *display: inline;}
+.albumconbox li{ _display: inline;}
+.albumconbox li p{ margin-top: 5px; height: 28px; font-size: 14px; line-height: 28px; overflow: hidden;}
+.albumconbox li p a{ color: #666;}
+.albumcon{ margin-bottom:40px}
+.albumcon ul{ height: 52px; font-size: 0; text-align: center; background: url(../images/client_line2.gif) no-repeat 0 center;}
+.albumcon li{ display: inline-block; width: 190px; height: 50px; font-size: 16px; color: #666; text-align: center; line-height: 50px; cursor: pointer; border: 1px solid #ccc; background: #fff;}
+.albumcon li.cur,.albumcon li:hover{ color: #fff; font-weight: bold; border-color: #d4211c; background: #d4211c;}
+.albumcon li{ *display: inline;}
+.albumcon li{ _display: inline;}
+/*新闻资讯*/
+.information{ height: 430px; overflow: hidden;}
+.inf-l img,.inf-m img{ margin-top: 20px; display: block; width: 407px; height: 125px;}
+.inf-l ul,.inf-m ul{ margin-top: 15px;}
+.inf-l li,.inf-m li{ height: 42px; font-size: 14px; line-height: 42px; border-bottom: 1px dashed #ddd; white-space: nowrap; text-overflow: ellipsis; overflow: hidden;}
+.inf-l li.last,.inf-m li.last{ border-bottom: 0;}
+.inf-l li a,.inf-m li a{ display:block; color: #666; width:322px; overflow: hidden;white-space: nowrap;text-overflow: ellipsis;float:left}
+.inf-l li span,.inf-m li span{ float:right; font-size:12px}
+.inf-l li a:hover,.inf-m li a:hover{ color:#d4211c}
+.inf-l{ float: left; margin-right: 45px; width:417px; overflow: hidden;}
+.inf-m{ float: left; width:417px;}
+.inf-r{ float: right; width: 270px;}
+.tit2{ height: 30px; font-size: 0; border-bottom: 1px solid #ddd;}
+.tit2 em{ display: inline-block; height: 30px; font-size: 18px; color: #d4211c; border-bottom: 3px solid #d4211c; float:left}
+.tit2 a{ margin-top: 5px; font-size: 14px; color: #555; font-weight: normal; text-transform: uppercase; float:right}
+.tit2 .aaa em{ height: 25px !important; display: inline-block; height: 30px; font-size: 18px; color: #d4211c; border-bottom: 3px solid #d4211c; line-height:16px !important;}
+.tit2 .aaa{ float:left;font-weight:bold;}
+.wdbox{ margin-top:22px; height: 385px; overflow: hidden;}
+.wdbox dl{ margin-bottom:15px; height: 115px; border-bottom: 1px solid #ddd; overflow: hidden;}
+.wdbox dt{ padding-left: 30px; height: 30px; font-size: 14px; line-height: 30px; overflow: hidden; background: url(../images/wen.gif) no-repeat 0 center;}
+.wdbox dt a{ color: #333;}
+.wdbox dd{ padding-left: 30px; height: 72px; font-size: 14px; color: #666; line-height: 24px; overflow: hidden; background: url(../images/da.gif) no-repeat 0 3px;}
+/*友情链接*/
+.link .tit3{height: 30px;border-bottom: 1px solid #ddd;}
+.link .tit3 em{ display: inline-block; height: 30px; font-size: 18px; color: #d4211c; border-bottom: 3px solid #d4211c; float:left}
+.link .tit3 a{ margin-top: 5px; font-size: 14px; color: #555; font-weight: normal; text-transform: uppercase; float:left}
+.link{ height: 130px; overflow: hidden;}
+.link h2 span{ font-size: 16px; color: #888;}
+.link p{ margin-top: 23px; font-size: 0; text-align: center;}
+.link p a{ margin: 0 22px 10px; display: inline-block; font-size: 14px; color: #555;}
+/******************************广告*********************************/
+.banners{height: 500px;}
+.fullSlide {width:100%;position:relative;height:500px;}
+.fullSlide .bd {margin:0 auto;position:relative;z-index:0;overflow:hidden;}
+.fullSlide .bd ul {width:100% !important;}
+.fullSlide .bd li {width:100% !important;height:500px;overflow:hidden;text-align:center;background-position:center top;}
+.fullSlide .bd li a {display:block;height:500px;}
+.fullSlide .hd {width:100%;position:absolute;z-index:1;bottom:0px;left:0;height:30px;line-height:30px;}
+.fullSlide .hd ul {text-align:center;}
+.fullSlide .hd ul li {cursor:pointer;display:inline-block;*display:inline;zoom:1;width:100px;height:8px;margin:1px;overflow:hidden;background:#fff;line-height:999px;}
+.fullSlide .hd ul .on {background:#D21813;}
+.fullSlide .prev,.fullSlide .next {display:block;position:absolute;z-index:1;top:50%;margin-top:-30px;left:5%;z-index:1;width:40px;height:60px;cursor:pointer;filter:alpha(opacity=50);opacity:0.5;display:none;width:73px; height:73px;}
+.fullSlide .prev{background:url(../images/left1s.png) no-repeat;}
+.fullSlide .next {left:auto;right:5%;background:url(../images/right1s.png) no-repeat;}
